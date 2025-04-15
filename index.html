@@ -4,35 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="public/css/styles.css">
   
   <title>Frontend Mentor | Bento grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
+<body class="bg-white p-5 m-10 border-0 content-center">
+<main class="grid grid-cols-1 gap-2.5 content-center">
+  <div class="bg-purple-1 p-7.5 content-center rounded-2xl w-80 shadow-sm">
+    <p class="font-bold text-white text-2xl text-center">Social Media <br><span class="text-yellow-1 text-center">10x</span> Faster <br> with AI</p>
+    <img src="/assets/images/illustration-five-stars.webp" alt="rating w-40 h-5 content-center">
+    <p class="text-white text-center text-xl">
+      Over 4,000 5-star reviews
+    </p>
+  </div>
   
-  Grow followers with non-stop content.
+  <div class="bg-yellow rounded-2xl p-7.5 w-80 shadow-sm">
+    <img src="assets/images/illustration-multiple-platforms.webp" alt="">
+    <p class="font-bold text-xl">
+      Manage multiple accounts and platforms.
+    </p>
+  </div>
 
-  >56% faster audience growth
+  <div class="bg-yellow-1 rounded-2xl w-80 pt-7.5 pl-5.5 pr-7.5 shadow-sm">
+    <p class="font-bold text-xl mb-1.5">
+      Maintain a consistent posting schedule.
+    </p>
+    <img src="assets/images/illustration-consistent-schedule.webp" alt="" class="content-start  mb-0 w-50 h-30" >
+  </div>
+
+  <div class="bg-purple content-center w-80 p-7.5 rounded-2xl mt-5 shadow-sm">
+    <p class="text-2xl font-medium">
+      Schedule to social media.
+    </p>
+    <img src="assets/images/illustration-schedule-posts.webp" alt="" class="mb-3 mt-3">
+    <p class="text-base font-medium text-center">
+      Optimize post timings to publish content at the perfect time for your audience.
+    </p>
+  </div>
+
+  <div class="bg-purple-1 rounded-2xl shadow-sm p-7.5 w-80">
+    <img src="assets/images/illustration-grow-followers.webp" alt="" class="ml-5 mb-3 h-40">
+    <p class="font-bold text-2xl text-center text-white">
+      Grow followers with non-stop content.
+    </p>
+  </div>
   
-  Create and schedule content quicker.
+  <div>
+    <p>
+     <span>>56%</span> <br>
+      faster audience growth
+    </p>
+    <img src="assets/images/illustration-audience-growth.webp" alt="">
+  </div>
+  
+  <div>
+    <p>
+      Create and schedule content <span>quicker.</span>
+    </p>
+    <img src="assets/images/illustration-create-post.webp" alt="">
+  </div>
 
-  Write your content using AI.
+    <div>
+      <p>Write your content using AI.</p>
+      <img src="assets/images/illustration-ai-content.webp" alt="">
+    </div>
+  
+  
+
+  
+
+</main>
+  
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
