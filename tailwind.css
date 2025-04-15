@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@theme{
+  --color-purple: hsl(254, 88%, 90%);
+  --color-purple-1: hsl(256, 67%, 59%);
+  --color-yellow: hsl(31, 66%, 93%);
+  --color-yellow-1: hsl(39, 100%, 71%); 
+  --container-white:  hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 7%);
+}
